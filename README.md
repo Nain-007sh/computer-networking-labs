@@ -1,45 +1,147 @@
-# Computer Networking Labs 🌐
+# 🌐 Computer Networking Labs
 
-[![Cisco Packet Tracer](https://img.shields.io/badge/Simulator-Cisco%20Packet%20Tracer-005A9C?style=flat-square&logo=cisco&logoColor=white)](https://www.netacad.com/courses/packet-tracer)
-[![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+![Cisco Packet Tracer](https://img.shields.io/badge/Simulator-Cisco%20Packet%20Tracer-005A9C?style=for-the-badge\&logo=cisco\&logoColor=white)
+![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-A comprehensive and structured collection of computer networking practical labs, network designs, and protocol configurations. This repository serves as a hands-on guide to understanding core networking concepts, routing methodologies, and network administration using industry-standard simulation tools.
+A structured collection of **Computer Networking practical labs** designed to strengthen fundamental and advanced networking concepts through hands-on implementation in **Cisco Packet Tracer**.
 
----
-
-## 🛠️ Core Concepts & Technologies Covered
-
-* **Network Topologies:** LAN and WAN design using Hubs, Layer 2 Switches, and Routers.
-* **IP Architecture:** IPv4 Addressing schemes, VLSM, and Subnetting.
-* **Core Services:** Dynamic Host Configuration Protocol (DHCP) for automated IP management.
-* **Routing Protocols:** Static Routing (Administrative Distance, Next-Hop) and Dynamic Routing (RIP/OSPF convergence).
+This repository covers network design, IP addressing, subnetting, DHCP configuration, and routing protocols commonly taught in networking courses and used in real-world environments.
 
 ---
 
-## 📂 Repository Structure & Lab Breakdown
+## 📌 Features
 
-The network architectures in this repository are organized sequentially based on complexity with standardized naming conventions:
-
-| File Name | Lab Objective | Core Concepts Evaluated |
-| :--- | :--- | :--- |
-| 📁 `lab-01.pkt` | **Basic Network Topology** | Peer-to-peer architecture, End-device configuration, IPv4 addressing, and Ping verification. |
-| 📁 `lab-02.pkt` | **LAN Switching Implementation** | Local Area Network (LAN) deployment using Centralized Hubs and Managed Switches. |
-| 📁 `lab-03.pkt` | **Network Subnetting** | Subnet design, breaking broadcast domains, and validating inter-subnet communication boundaries. |
-| 📁 `lab-04.pkt` | **DHCP Server Deployment** | Automated IP provisioning, Scope definition, Lease configurations, and IP Pool verification. |
-| 📁 `lab-05-static-routing.pkt` | **Static Route Configuration** | Manual routing table updates, Next-hop forwarding, and Multi-router infrastructure path control. |
-| 📁 `lab-06-dynamic-routing.pkt` | **Dynamic Routing Protocols** | Autonomous routing protocol execution, Automatic convergence, and Dynamic path discovery. |
+* Network topology design and implementation
+* IPv4 addressing and subnetting
+* DHCP configuration and management
+* Static routing implementation
+* Dynamic routing protocols
+* LAN and WAN simulations
+* Practical Packet Tracer labs
+* Step-by-step learning progression
 
 ---
 
-## ⚙️ Deployment & Simulation Guide
+## 🛠 Technologies & Concepts
+
+### Network Design
+
+* LAN (Local Area Network)
+* WAN (Wide Area Network)
+* Hub-Based Networks
+* Switch-Based Networks
+* Router Configuration
+
+### IP Addressing
+
+* IPv4 Addressing
+* Subnetting
+* VLSM (Variable Length Subnet Masking)
+
+### Network Services
+
+* DHCP (Dynamic Host Configuration Protocol)
+
+### Routing
+
+* Static Routing
+* Dynamic Routing
+* RIP
+* OSPF
+
+---
+
+## 📂 Repository Structure
+
+| File                         | Description                                    |
+| ---------------------------- | ---------------------------------------------- |
+| `lab-01.pkt`                 | Basic network topology and device connectivity |
+| `lab-02.pkt`                 | LAN implementation using hubs and switches     |
+| `lab-03.pkt`                 | IPv4 subnetting and network segmentation       |
+| `lab-04.pkt`                 | DHCP server configuration and testing          |
+| `lab-05-static-routing.pkt`  | Static routing between multiple networks       |
+| `lab-06-dynamic-routing.pkt` | Dynamic routing using routing protocols        |
+
+---
+
+## 🎯 Learning Outcomes
+
+After completing these labs, you will be able to:
+
+* Design and configure LAN/WAN networks
+* Assign and manage IPv4 addresses
+* Perform subnetting calculations
+* Configure DHCP services
+* Implement static routing
+* Configure and verify dynamic routing protocols
+* Troubleshoot network connectivity issues
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-To view and simulate these network architectures, you must have **Cisco Packet Tracer** installed on your system. 
 
-### Step-by-Step Execution
+Install the following software before opening the lab files:
 
-1. **Clone the Repository:**
-   Open your terminal (or Git Bash) and execute the following command to download the workspace locally:
+* Cisco Packet Tracer
+* Git (Optional)
+
+### Clone Repository
+
 ```bash
-   git clone [https://github.com/Nain-007sh/computer-networking-labs.git](https://github.com/Nain-007sh/computer-networking-labs.git)
+git clone https://github.com/Nain-007sh/computer-networking-labs.git
+cd computer-networking-labs
+```
+
+### Open Labs
+
+1. Launch Cisco Packet Tracer.
+2. Open any `.pkt` file.
+3. Review the network topology.
+4. Configure devices if required.
+5. Verify connectivity using:
+
+   * Ping
+   * Traceroute
+   * Routing Tables
+   * DHCP Assignments
+
+---
+
+## 📚 Recommended Learning Sequence
+
+1. Basic Topology
+2. LAN Switching
+3. Subnetting
+4. DHCP Configuration
+5. Static Routing
+6. Dynamic Routing
+
+Following this order helps build networking knowledge progressively from beginner to advanced concepts.
+
+---
+
+## 🤝 Contributions
+
+Contributions, improvements, and additional networking labs are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+### 👨‍💻 Author
+
+**Husnain Raheem**
+
+Computer Science Student | Networking Enthusiast | Future Software Engineer
